@@ -72,6 +72,10 @@
             </li>
             <li><a href="login.html">Login</a></li>
             <li><a href="#" >Contact</a></li>
+            <li><div class="form-check form-switch text-center">
+              <input class="form-check-input " type="checkbox" id="switch">
+              <i class="fa-solid fa-moon" id="modeImg"></i>
+            </div></li>
         </ul>
         <div class="toggle-menu">☰</div>
     </nav>
@@ -220,7 +224,7 @@
         <a href="#" class="bt">Get in touch</a>
       </div>
       <div class="wisdom-image">
-        <img src="/1.jpg" alt="Krishna and Arjuna on chariot" />
+        <img src="1.jpg" alt="Krishna and Arjuna on chariot" />
       </div>
     </section>
     <section class="content-section" id="content">
@@ -339,7 +343,16 @@
     <script>
         // Get the button
         let mybutton = document.getElementById("scrollToTopBtn");
-      
+        let mode=document.getElementById("switch"); 
+        // accesing the necessary elements
+        let modeImg=document.getElementById("modeImg"); 
+        let wisdom=document.getElementById("wisdom");
+        let cards=document.querySelectorAll(".roadmap-card"); 
+        let foot=document.querySelectorAll(".footer-section");
+        let footMain=document.querySelector(".main-footer");
+        let main=document.querySelector(".content-section");
+        let nav=document.querySelector("nav");
+        
         // When the user scrolls down 20px from the top of the document, show the button
         window.onscroll = function () {
             if (document.body.scrollTop > 20 || document.documentElement.scrollTop > 20) {
@@ -354,6 +367,22 @@
             document.body.scrollTop = 0;
             document.documentElement.scrollTop = 0;
         };
+
+        mode.addEventListener("click", function () {
+            modeImg.classList.toggle("fa-moon");
+            modeImg.classList.toggle("fa-sun");
+           cards.forEach((card) => {
+                card.classList.toggle("change");
+            });
+            wisdom.classList.toggle("dark");
+            foot.forEach((foot) => {
+                foot.classList.toggle("new");
+            });
+            footMain.classList.toggle("new");
+            main.classList.toggle("change1")
+            nav.classList.toggle("dark")
+           
+        });
       </script>
 
 

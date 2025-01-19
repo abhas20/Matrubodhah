@@ -199,3 +199,13 @@
         font-size: 0.8rem; 
     }
 }
+
+.new{
+    background-color: black;
+}
+.new h4, .new h3{
+    color:white;
+}
+.new ul li a, .new p, .new i,.new span{
+    color: wheat;
+}

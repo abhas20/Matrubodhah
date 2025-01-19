@@ -229,7 +229,7 @@ nav {
   align-items: center;
   padding: 50px 5%;
   box-sizing: border-box;
-  background-color: white;
+  /* background-color: white; */
   margin-top: 50px;
 }
 
@@ -242,13 +242,13 @@ nav {
 
 .wisdom-content h1 {
   font-size: 46px;
-  color: black;
+  /* color: black; */
   margin-bottom: 20px;
 }
 
 .wisdom-content h2 {
   font-size: 36px;
-  color: black;
+  /* color: black; */
   margin-bottom: 20px;
 }
 
@@ -570,3 +570,20 @@ nav {
     margin-right: 3%;
   }
 }
+.dark{
+  background-color: black;
+  color: white;
+}
+.dark p{
+  color: #bcb7b7;
+}
+.dark a{
+  color: wheat;
+}
+
+
+@media screen and (max-width: 768px) {
+    .dark ul {
+        background: black;
+    }
+  }

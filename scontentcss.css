@@ -115,3 +115,16 @@
     font-size: 1rem;
   }
 }
+
+.change{
+  background-color: black;
+}
+.change h1{
+  color: white;
+}
+.change p{
+  color: wheat;
+}
+.change1{
+  background-color:#322626
+}
