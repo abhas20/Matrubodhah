@@ -570,6 +570,7 @@ nav {
     margin-right: 3%;
   }
 }
+
 .dark{
   background-color: black;
   color: white;
@@ -613,3 +614,11 @@ nav {
         background: black;
     }
   }
+
+
+
+#username,#password,#signup-username,#signup-name,#signup-password,#signup-confirm-password{
+  height: 3rem;
+  padding-left: 1rem;
+}
+
