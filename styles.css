@@ -580,6 +580,32 @@ nav {
 .dark a{
   color: wheat;
 }
+.dark button{
+  background-color: black;
+  color: wheat;
+}
+.dark .btn{
+  background-color: black;
+  color: white;
+}
+.dark .btn:is(:focus, :hover) {
+  background-color: #e5a186;
+  border-radius: #e5a186;
+  color: white;
+}
+.dark form{
+  background-color: #333;
+  color: white;
+}
+.dark form p{
+  color: #fff;
+}
+.dark ul li button{
+  background-color: black;
+  color: wheat;
+}
+
+
 
 
 @media screen and (max-width: 768px) {

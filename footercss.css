@@ -163,7 +163,6 @@ form input{
    outline: none;
 }
 form button{
-   background: transparent;
    border: 0;
    outline: none;
    cursor: pointer;
@@ -236,7 +235,7 @@ h4 {
     .footer-bottom {
         font-size: 0.8rem; 
     }
-}
+    
 
 .new{
     background-color: black;

@@ -53,3 +53,14 @@ h1 {
     margin-top: 5px;
     border-radius: 5px;
 }
+.dark{
+    background: #333;
+    color:#fff;
+}
+.dark h1{
+    background: #333;
+    color:#fff;
+}
+.dark1{
+    background-color: black;
+}

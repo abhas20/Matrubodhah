@@ -356,3 +356,22 @@ h4 {
   .github-star a i {
     margin-right: 8px;
   }
+.dark{
+  background-color: #000;
+  color: white;
+}
+.dark h1,.dark h2{
+  color: white;
+}
+.dark p,.dark a{
+  color: wheat;
+}
+.new{
+  background-color: black;
+}
+.new h4, .new h3{
+  color:white;
+}
+.new ul li a, .new p, .new i,.new span{
+  color: wheat;
+}

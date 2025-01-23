@@ -395,15 +395,7 @@
     <script>
         // Get the button
         let mybutton = document.getElementById("scrollToTopBtn");
-        let mode=document.getElementById("switch"); 
-        // accesing the necessary elements
-        let modeImg=document.getElementById("modeImg"); 
-        let wisdom=document.getElementById("wisdom");
-        let cards=document.querySelectorAll(".roadmap-card"); 
-        let foot=document.querySelectorAll(".footer-section");
-        let footMain=document.querySelector(".main-footer");
-        let main=document.querySelector(".content-section");
-        let nav=document.querySelector("nav");
+        
         
         // When the user scrolls down 20px from the top of the document, show the button
         window.onscroll = function () {
@@ -420,22 +412,8 @@
             document.documentElement.scrollTop = 0;
         };
 
-        mode.addEventListener("click", function () {
-            modeImg.classList.toggle("fa-moon");
-            modeImg.classList.toggle("fa-sun");
-           cards.forEach((card) => {
-                card.classList.toggle("change");
-            });
-            wisdom.classList.toggle("dark");
-            foot.forEach((foot) => {
-                foot.classList.toggle("new");
-            });
-            footMain.classList.toggle("new");
-            main.classList.toggle("change1")
-            nav.classList.toggle("dark")
-           
-        });
       </script>
+      <script src="dark\darkmode.js"></script>
 
 
 </body>

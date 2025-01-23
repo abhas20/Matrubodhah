@@ -297,3 +297,17 @@ button {
    button:focus:not(:focus-visible) {
     outline: none;
    }
+
+   .dark{
+    background-color: black;
+    color: white;
+   }
+   .dark p{
+    color: #bcb7b7;
+  }
+  .dark a{
+    color: wheat;
+  }
+  .dark form p{
+    color: #fff;
+  }

@@ -102,3 +102,16 @@
     }
   }
   
+  .darkMod{
+    background-color:#333;
+  }
+  .dark{
+    background-color: black;
+  }
+  .dark h1{
+    color: white;
+  }
+  .dark form{
+    background-color: black;
+    color: wheat;
+  }

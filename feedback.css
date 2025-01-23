@@ -20,7 +20,7 @@ html {
     align-items: center;
  
 }
-.container{
+.containers{
     background-color: rgb(255, 255, 255);
     border-radius: 8px;
     height: 750px;
@@ -341,3 +341,36 @@ h4 {
   .github-star a i {
     margin-right: 8px;
   }
+  /* #switch6{
+    background-color: white;
+    border: white;
+    color: black;
+  } */
+  .dark{
+    background-color: black;
+    color: white;
+  }
+  .dark p{
+    color: #bcb7b7;
+  }
+  .dark a{
+    color: wheat;
+  }
+   .dark form p{
+    color: #fff;
+  }
+  .dark button{
+    background-color: black;
+    color: wheat;
+  }
+  
+  .new{
+    background-color: black;
+    color: white;
+  }
+  .new h4, .new h3{
+    color:white;
+}
+.new ul li a, .new p, .new i,.new span{
+  color: wheat;
+}
